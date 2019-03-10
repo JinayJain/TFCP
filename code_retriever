@@ -1,0 +1,10 @@
+#!/bin/sh
+
+FOLDER=$1
+
+find $FOLDER -type f -name "*.cpp" | while read -r line
+do
+    cat "$line" >> data.txt
+done
+
+
