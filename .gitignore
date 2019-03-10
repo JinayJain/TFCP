@@ -1,3 +1,4 @@
 data.txt
 weights/*
 trained_model.h5
+!examples/*
