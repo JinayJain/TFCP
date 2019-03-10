@@ -15,7 +15,7 @@
     * You may need to run ``chmod +x code_retriever`` if it isn't given executable permissions
 5. Run ``python main.py`` to train your model
 6. Finally, execute ``python test.py`` to test your model by generating a sample
-7. **Star** this repository if you enjoyed!
+7. **Star** :star: this repository if you enjoyed!
 
 ## Results
 
@@ -42,6 +42,37 @@ for(int i = 0; i < 26; i++){ freq[i] = 0; }
         x = 1. / (double) d;
         for(int j = 0; j < j
 ```
+
+Another example from Benq's wonderful [USACO repository](https://github.com/bqi343/USACO). Using temperature 0.5 (model may be found in examples/benq.h5):
+
+```cpp
+int main() {
+    // you should actually read the stuff at the bottom
+    setIO("cowpatibility"); 
+    re(n);
+    F0R(i,N) {
+        cin >> A[i];
+        }
+        F0R(j,{
+                if (i) {
+                    res.d[i-1][j-1] -= m.d[i][j];
+                F0R(j,sz(nex[i]) && t[a[i][j] <= !1) {
+            cur[i] = cur[i-1]; 
+            char c = it.f; int u, int v, int -1) {
+        P c04; cin >> ;
+			if (c < 0) break;
+			K+1) {
+				if (z == 'E') {
+				Edge00[i].#define '0') return {1};
+	if (visit[i][j]) return 0;
+	return 1;
+}
+```
+
+## Observations and Further Application
+
+We see that these trained models generate some sort of coherence as to the basic rules of programming (e.g. curly braces, semicolons, loops, and functions). However, most outputs generated were simply recitations of the coding templates used by most competitive programmers. This makes sense as the model receives considerably more training examples with training code than any other esoteric function. If one were to truly test the model, you can maybe train it on cleaned data that omits template code. Additionally, you could use multiple traning sets of code (maybe even in different language) to generate hybrid coding styles and maybe even a whole new programming syntax. Overall, this project demonstrates the robustness of LSTM models with data found in the real world. It also shows how the neural networks can learn preset patterns shown in programming, which may show some promise when modelling real world languages.
+
 
 ---
 

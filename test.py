@@ -46,4 +46,4 @@ def text_gen(prompt_str, n_chars):
 
     return (prompt_str + ''.join(generated))
 
-print(text_gen(code_prompt, 500))
+print(text_gen(code_prompt, 1000))
