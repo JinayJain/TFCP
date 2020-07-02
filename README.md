@@ -15,7 +15,6 @@
     * You may need to run ``chmod +x code_retriever`` if it isn't given executable permissions
 5. Run ``python main.py`` to train your model
 6. Finally, execute ``python test.py`` to test your model by generating a sample
-7. **Star** :star: this repository if you enjoyed!
 
 ## Results
 
